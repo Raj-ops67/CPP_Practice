@@ -1,0 +1,9 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.executorMap": {
+        "cpp": "cls; cd $dir; g++ $fileName -o $fileNameWithoutExt; if ($?) { ./$fileNameWithoutExt }"
+    }
+}
